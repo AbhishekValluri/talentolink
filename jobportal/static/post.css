@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.container .text h3 {
+    font-family: 'Josefin Sans';
+    margin-bottom: 10px;
+}
+
+.container .text h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container .text button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(6, 141, 94);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.postform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(5, 77, 135);
+}
+
+.container-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    color: #ccc;
+}
+
+form {
+    width: 100%;
+}
+
+form label,
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="submit"] {
+    background-color: #07e9cf;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #5eb0dc;
+}
+
+
+.box{
+    width: 600px;
+    height:200px;
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: auto auto auto auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+    
+    .container .text button {
+        font-size: 16px;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container-form {
+        max-width: 70%;
+    }
+
+    form label,
+    form input,
+    form textarea {
+        width: calc(100% - 20px);
+    }
+}

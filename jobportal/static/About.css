@@ -1,0 +1,8 @@
+.box{
+    width: 600px;
+    height:200px;
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: auto auto auto auto;
+    
+}

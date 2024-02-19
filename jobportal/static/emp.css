@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(227, 73, 188), rgb(39, 192, 151));
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.first-part {
+    padding: 20px;
+    text-align: center;
+}
+
+.first-part h2 {
+    margin-bottom: 10px;
+}
+
+.second-part {
+    padding: 20px;
+    position: relative;
+    top: 10px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.second-part h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Center the form horizontally */
+    max-width: 300px; /* Limit the width of the form */
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.checkbox-label {
+    margin: 0;
+}
+
+.forgot {
+    position: relative;
+    top: 3px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.second-part p {
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box{
+    width: 600px;
+    height:200px;
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: auto auto auto auto;
+}
+
+/* Media Query for Responsive Layout */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second-part {
+        width: 70%;
+    }
+}

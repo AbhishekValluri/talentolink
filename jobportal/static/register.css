@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nova+Square&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_pgoHuvuMGt_8ovZZra-dq4ZuQCHA3XsBRw&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.border{
+    position: relative;
+    margin: 5%;
+}
+
+.border-container {
+    border: 3px solid #b2b1b1;
+    padding: 20px;
+    border-radius: 10px;
+    width:400px;
+    margin-left: 350px;
+}  
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#signUpForm{
+    display:grid;
+    height: 70vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+#loginButton{
+    padding: 10px 15px;
+    font-size: 20px;
+    background-color: rgb(5, 111, 218);
+    color: white;
+    border: none;
+    border-radius: 8px 15px;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid rgb(0, 183, 255);
+}
+
+#signIn, .sign{
+    margin-top: 5px;
+    padding: 8px;
+    background-color: rgb(5, 111, 218);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.box{
+    width: 600px;
+    height:200px;
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: auto auto auto auto;
+}
+

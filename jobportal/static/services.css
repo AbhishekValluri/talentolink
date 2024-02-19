@@ -1,0 +1,32 @@
+h4{
+    height: 6vh;
+    text-align: center;   
+}
+
+h5{
+    text-align:center;
+}
+.container_service{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(231, 240, 237);
+    padding: 20px;
+    border: 2px solid greenyellow;    
+}
+
+#buy{
+    background-color:rgb(176, 135, 215);
+    font-weight: bold;
+    box-shadow: 2px 2px 0px 0px;
+    margin-left: 120px;
+
+}
+
+.box{
+    width: 600px;
+    height:200px;
+    display: grid;
+    padding-top: 100px;
+    grid-template-columns: auto auto auto auto;
+}
+
